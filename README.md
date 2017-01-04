@@ -1,7 +1,7 @@
 # VIWeb Application Prototype - My Undergraduate Thesis implementation of a Web tool for Information Visualization 
 This is the final source code of my undergradute thesis, presented in **December, 2007**, at Federal University of Pará State, PA - Brazil (Universidade Federal do Pará)
 
-* Abstract:
+### Abstract
 Due to the vast amount of data stored electronically, Information
 Visualization (IV) techniques have been increasingly used to allow easy interaction
 and rapid visual perception of data relationships by the user to find new
@@ -16,11 +16,11 @@ architecture enough to implement new IV techniques quickly and efficiently, and
 followed the main requirements for a good IV software.
 
 -
-The project folders are structured as the following:
-* VIWeb folder: contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
-* VIWebEJB and VIWebEar: just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
--
-Here are some screenshots of the application prototype:
+### Project Folders 
+- VIWeb folder: contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
+- VIWebEJB and VIWebEar: just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
+
+### Some Screenshots
 
 * First load of the application, showing the interactive areas. 
 Left side: visualization area. Right side: Interaction Area and Information Analysis.
