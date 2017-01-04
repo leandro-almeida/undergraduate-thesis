@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="VIWebEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="VIWebEJBClient.jar" deploy-path="/" handle="module:/resource/VIWebEJBClient/VIWebEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/VIWebEJB/VIWebEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/VIWeb/VIWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

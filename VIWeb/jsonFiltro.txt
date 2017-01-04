@@ -1,0 +1,33 @@
+Padrão de troca de dados de filtro e configs de visualização (POST): cliente -> servlet
+PS: esse filtro eh montado a partir dos valores selecionados na interface HTML (checkboxes e rangesliders).
+São enviados separadamente!
+---
+config=
+{
+	"eixoX": ,
+	"eixoY": ,
+	"forma": ,
+	"cor": 
+}
+
+--- 
+
+filtro=
+[
+	{
+		"atributo": ,
+		"valores": 
+		[
+			{
+				"valor": "",
+				"marcado": true/false
+			},
+			... 
+		]
+	},
+	...
+]
+
+---
+> Retorno do Servlet eh array de itens
+---

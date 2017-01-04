@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, sans-serif;
+}
+#loading{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-color: gray;
+}
+#titulo{
+	margin: 10px 20px;
+	width: 1160px;
+	background-color: #eee;
+}
+#titulo h1{
+	font-size: 16px;
+	text-align: center;
+	color: gray;
+}
+
+#desenhoCanvas{
+	float: left;
+	width: 820px;
+	height: 720px;
+	margin: 0px 0px 0px 20px;
+	border: 1px solid #ddd;
+}
+
+#abas{
+	float: right;
+	width: 300px;
+	height: 450px;
+	overflow: auto;
+	margin: 0px 100px 10px 0px;
+	border: 1px solid #ddd;
+}
+#abas p{
+	font-size: 11px;
+}
+#detalhes{
+	float: right;
+	width: 305px;
+	height: 270px;
+	overflow: auto;
+	margin: 0px 100px 20px 0px;
+}
+
+
+#resposta{
+	clear: both;
+	width: 1160px;
+	height: 50px;
+	margin: 20px 20px;
+	font-size: 14px;
+	overflow: auto;
+	border: 1px solid #ddd;
+}
+#resposta p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*
+ * Sliders
+ */
+div.track {
+	position: relative;
+	width: 100%;
+	height: 22px;
+	margin: 2px 0;
+	background-color: #ddd;
+	border-top: 1px solid #C3D6DF;
+	border-bottom: 1px solid #C3D6DF;
+}
+
+div.handle {
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	background-color: #A7C1DF;
+	border: 1px outset #ccc;
+	cursor: col-resize;
+}

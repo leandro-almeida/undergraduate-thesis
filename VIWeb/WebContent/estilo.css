@@ -1,0 +1,85 @@
+/* GERAL */
+body{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #ecf0f6;
+}
+
+h1{text-align: center;}
+h2{font-size: 18px; color:#516a88; text-align:center;}
+h3{font-size: 14px;}
+p{
+	margin-left: 10px;
+	text-align: justify;
+}
+p.msg{
+	text-align: center;
+	font-size: 12px;
+	color: blue;	
+}
+
+/* LINKS */
+a:link,a:active,a:visited,a.postlink{color:#336699;text-decoration:underline}
+a:hover{color:#000; text-decoration:underline}
+
+/* TABELA */
+.cor1{background: #f4f6fb}
+.cor2{background: #d9e2ec}
+
+table,td{
+	border-collapse: collapse;
+	border-color: #516a88;
+}
+td{
+	padding: 5px;
+}
+th{
+	background:#c6d3e4;
+	color:#516a88;
+	font-size:11px;
+	font-weight:bold;
+	height: 27px;
+	white-space: nowrap;
+	text-align:center;
+	padding: 8px;
+}
+
+/* FORMS */
+#forms{
+	margin: 0 auto;
+}
+#forms form fieldset{
+    padding: 20px;
+    border: 1px solid silver;
+}
+#forms form legend{
+	color: #000;
+	background-color: #eee;
+	border: 1px solid silver;
+	font-size: 10pt;
+	letter-spacing: 1px;
+}
+#forms form label{
+	display: block;
+	width: 130px;
+	float: left;
+	color: #000;
+	border-bottom: 1px solid silver;
+	text-align: left;
+	margin-right: 10px;
+	
+}
+#forms form input{
+	margin-bottom: 5px;
+	font-family: verdana, arial;
+	font-size: 11px;
+}
+#forms form textarea{
+	margin-bottom: 5px;
+	font-family: verdana, arial;
+	font-size: 11px;
+}
+/* HACK PARA CORRIGIR O MARGIN-BOTTOM*/
+html>body #forms legend{
+	margin-bottom: 0px;
+}

@@ -1,0 +1,10 @@
+Obter detalhes sob demanda do item
+
+click=
+{
+	"x":0,
+	"y":0
+}
+
+---
+Resultado: todas as informações do item em texto simples ou html.

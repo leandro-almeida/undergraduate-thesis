@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>VIWeb</title>
+	<link rel="stylesheet" type="text/css" href="viweb1280x1024.css" />
+	<link rel="stylesheet" type="text/css" href="tab.css" />
+	<script type="text/javascript" src="js/viweb.js"></script>
+</head>
+<body>
+<div id="loading" class="hide">Carregando...</div>
+<div id="titulo">
+	<h1>VIWeb - Visualização de Informações na Web</h1>
+</div>
+
+<div id="desenhoCanvas">
+	<canvas id="canvas" width="820" height="720">
+		<p style="text-align:center"><b>Seu navegador não suporta Canvas!</b></p>
+	</canvas>
+</div>
+
+<div id="abas">
+	<ul id="abageral1" class="shadetabs">
+		<li class="selected"><a href="#" onclick="trocaTab(1, 'abageral1', 'conteudoAbas1');">Filtros</a></li>
+		<li><a href="#" onclick="trocaTab(2, 'abageral1', 'conteudoAbas1');">Configuração</a></li>
+		<li><a href="#" onclick="trocaTab(3, 'abageral1', 'conteudoAbas1');">Relatório</a></li>
+	</ul>
+	
+	<div id="conteudoAbas1" class="contentstyle">
+		<div id="tab1" class="show">
+			<form id="formFiltros" style="padding: 10px;">
+			</form>
+		</div>
+		
+		<div id="tab2" class="hide">
+			<form id="formConfig" style="padding: 10px;">
+				<fieldset style="display:block; border:1px solid navy; padding:5px; margin-bottom: 15px; font-size:12px; font-family:verdana, sans-serif;">
+					<legend style="color: navy; font-weight: bold;">Eixo X</legend>
+					<select name="eixoX" style="width: 235px;">
+					</select>
+				</fieldset>
+				
+				<fieldset style="display:block; border:1px solid navy; padding:5px; margin-bottom: 15px; font-size:12px; font-family:verdana, sans-serif;">
+					<legend style="color: navy; font-weight: bold;">Eixo Y</legend>
+					<select name="eixoY" style="width: 235px;">
+					</select>
+				</fieldset>
+				
+				<fieldset style="display:block; border:1px solid navy; padding:5px; margin-bottom: 15px; font-size:12px; font-family:verdana, sans-serif;">
+					<legend style="color: navy; font-weight: bold;">Forma</legend>
+					<select name="forma" style="width: 235px;">
+					</select>
+					<canvas id="canvasForma" width="230" height="100">
+						<p style="text-align:center"><b>Seu navegador não suporta Canvas!</b></p>
+					</canvas>
+				</fieldset>
+				
+				<fieldset style="display:block; border:1px solid navy; padding:5px; margin-bottom: 15px; font-size:12px; font-family:verdana, sans-serif;">
+					<legend style="color: navy; font-weight: bold;">Cor</legend>
+					<select name="cor" style="width: 235px;">
+					</select>
+					<canvas id="canvasCor" width="230" height="75">
+						<p style="text-align:center"><b>Seu navegador não suporta Canvas!</b></p>
+					</canvas>
+				</fieldset>
+			</form>
+		</div>
+		
+		<div id="tab3" class="hide">
+			<div id="relBotao" style="text-align:center;">
+				<p>O relatório a ser gerado conterá apenas os itens da visualização atual.</p>
+				<button onclick="gerarRelatorio()">Gerar Relatório</button>
+			</div>
+		</div>
+	
+	</div>
+</div>
+
+<div id="detalhes">
+	<fieldset style="display:block; width: auto; height: 245px; border:1px solid #ddd; padding:5px; font-size:12px; font-family:verdana, sans-serif;">
+		<legend style="color: #000; font-weight: bold;">Detalhes do Item</legend>
+		<div id="detalhes-item">
+		</div>
+	</fieldset>
+</div>
+
+<div id="resposta">Status</div>
+</body>
+</html>

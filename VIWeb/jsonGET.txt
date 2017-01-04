@@ -1,0 +1,51 @@
+Padrão de troca de dados para a primeira execução da aplicação (GET): cliente -> servlet
+------
+base=0 // id da base (futuramente util)
+eixo=580 // tamanho do eixo em pixels
+pixelMinX=..
+pixelMinY=..
+
+Padrão de troca de dados para a primeira execução da aplicação (GET): servlet -> cliente
+------
+{
+	"config":
+	{
+		"eixoX": , // nome da coluna
+		"eixoY": ,
+		"forma": ,
+		"cor": ,
+		"rotulosX":[],
+		"rotulosY":[]
+	},
+	
+	"colunas":
+	[
+		{
+			"nome": ,
+			"tipo": ,
+			"desc": ,
+			"valores": [ , , ]
+		},
+		...
+	],
+	
+	"cores": // cores usadas
+	[
+		"rgb(0,0,0)",
+		"rgb(255,255,255)",
+		...
+	],
+
+	"itens":
+	[
+		{
+			"x": (valor em pixel),
+			"y": (valor em pixel),
+			"f": (int), // forma
+			"c": (int) // cor
+		},
+		...
+	]
+	
+}
+
