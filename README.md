@@ -17,8 +17,8 @@ followed the main requirements for a good IV software.
 
 -
 The project folders are structured as the following:
-* VIWeb folder - contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
-* VIWebEJB and VIWebEar - just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
+* VIWeb folder: contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
+* VIWebEJB and VIWebEar: just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
 -
 Here are some screenshots of the application prototype:
 
