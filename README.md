@@ -6,6 +6,12 @@ The VIWebEJB + VIWebEar are just a prototype of future works, not finished.
 
 Here are some screenshots of the application prototype:
 
-* First load of the application, showing the interactive areas. Left side: visualization area. Right side: Interaction Area and Information Analysis.
+* First load of the application, showing the interactive areas. 
+Left side: visualization area. Right side: Interaction Area and Information Analysis.
 ![alt tag](https://github.com/leandro-almeida/undergraduate-thesis/blob/master/screenshots/fig_areasPrototipo.png)
 
+* Doing some filtering on Y axis:
+![alt tag](https://github.com/leandro-almeida/undergraduate-thesis/blob/master/screenshots/fig_filtroEixoY.png)
+
+* Changing the Color representation attribute:
+![alt tag](https://github.com/leandro-almeida/undergraduate-thesis/blob/master/screenshots/fig_mudancaCor.png)
