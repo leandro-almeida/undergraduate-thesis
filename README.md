@@ -15,7 +15,8 @@ standard Web technologies (Java, JavaScript, Ajax, HTML Canvas), as an flexible
 architecture enough to implement new IV techniques quickly and efficiently, and
 followed the main requirements for a good IV software.
 
-So, the important project is in the VIWeb folder, where contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
+-
+The important project files is in the VIWeb folder, where contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
 The VIWebEJB + VIWebEar are just a prototype of future works, not finished.
 
 Here are some screenshots of the application prototype:
