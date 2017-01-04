@@ -16,9 +16,10 @@ architecture enough to implement new IV techniques quickly and efficiently, and
 followed the main requirements for a good IV software.
 
 -
-The important project files is in the VIWeb folder, where contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
-The VIWebEJB + VIWebEar are just a prototype of future works, not finished.
-
+The project folders are structured as the following:
+* VIWeb folder - contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
+* VIWebEJB and VIWebEar - just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
+-
 Here are some screenshots of the application prototype:
 
 * First load of the application, showing the interactive areas. 
@@ -28,5 +29,5 @@ Left side: visualization area. Right side: Interaction Area and Information Anal
 * Doing some filtering on Y axis:
 ![alt tag](https://github.com/leandro-almeida/undergraduate-thesis/blob/master/screenshots/fig_filtroEixoY.png)
 
-* Changing the Color representation attribute:
+* Changing the Color attribute representation:
 ![alt tag](https://github.com/leandro-almeida/undergraduate-thesis/blob/master/screenshots/fig_mudancaCor.png)
