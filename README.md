@@ -14,12 +14,11 @@ distant, and following a global trend in the area. The tool was developed by
 standard Web technologies (Java, JavaScript, Ajax, HTML Canvas), as an flexible
 architecture enough to implement new IV techniques quickly and efficiently, and
 followed the main requirements for a good IV software.
-
 -
 ### Project Folders 
 - VIWeb folder: contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
 - VIWebEJB and VIWebEar: just a prototype of future works, not finished, intended to be a dynamic backend to manage datasets from .txt os .csv files.
-
+-
 ### Some Screenshots
 
 * First load of the application, showing the interactive areas. 
