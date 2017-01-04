@@ -1,5 +1,5 @@
-# VIWeb Application Prototype - My Undergraduate Thesis implementation
-This is the final source code of my undergradute thesis, presented in December, 2007, at Federal University of Pará State, PA - Brazil (Universidade Federal do Pará)
+# VIWeb Application Prototype - My Undergraduate Thesis implementation of a Web tool for Information Visualization 
+This is the final source code of my undergradute thesis, presented in *December, 2007*, at Federal University of Pará State, PA - Brazil (Universidade Federal do Pará)
 
 * Abstract:
 Due to the vast amount of data stored electronically, Information
