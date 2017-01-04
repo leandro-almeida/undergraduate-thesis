@@ -1,4 +1,4 @@
-# undergraduate-thesis
+# VIWeb Application Prototype - My Undergraduate Thesis implementation
 This is the final source code of my undergradute thesis, presented in December, 2007, at Federal University of Pará State, PA - Brazil (Universidade Federal do Pará)
 
 So, the important project is in the VIWeb folder, where contains all javascripts, css and html files that actually makes the fun part of Data Visualization.
